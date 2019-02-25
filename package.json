@@ -1,0 +1,9 @@
+{
+  "name": "meteor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
