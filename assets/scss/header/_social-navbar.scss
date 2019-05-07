@@ -1,0 +1,87 @@
+.social-navbar {
+  color: $color-gray;
+  background-color: $color-main;
+
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  .container {
+    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-rows: minmax(36px, max-content);
+    align-items: center;
+    grid-gap: $gap;
+  }
+}
+
+.social-navbar__weather {
+  &-temperature {
+    margin-right: $gap / 3 * 2;
+  }
+}
+
+.social-navbar__today {
+  padding-left: $gap / 3;
+}
+
+.social-navbar__left {
+  align-items: center;
+  @extend %list-reset;
+
+  &-item-link {
+    display: block;
+
+    padding: ($gap / 3) ($gap / 3 * 2);
+
+    color: $color-gray;
+
+    &:hover,
+    &:focus {
+      color: $color-light;
+    }
+  }
+}
+
+.social-navbar__right {
+  padding-right: $gap;
+
+  @extend %list-reset;
+  align-items: center;
+
+  &-item-link {
+    display: flex;
+
+    padding: ($gap / 3) ($gap * 0.45);
+
+    color: $color-gray;
+
+    &:hover,
+    &:focus {
+      img {
+        filter: brightness(2);
+      }
+    }
+  }
+}
+
+.social-navbar__login {
+  &-link {
+    display: flex;
+
+    color: $color-gray;
+
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      color: $color-light;
+
+      img {
+        filter: brightness(2);
+      }
+    }
+  }
+
+  img {
+    margin-right: $gap / 3;
+  }
+}

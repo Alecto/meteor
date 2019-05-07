@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $color-dark;
+
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+body {
+  min-height: 101vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+
+  max-width: $xl;
+  margin: auto;
+  padding-right: $gap;
+  padding-left: $gap;
+}
