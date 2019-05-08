@@ -1,5 +1,3 @@
-import { menu } from './libs.min.js';
+import { menu } from './lib.min.js';
 
-$(menu.hostElem).on(
-    'click', menu.itemElem,
-    (e) => menu.menuTrigger(e.currentTarget));
+menu.init();

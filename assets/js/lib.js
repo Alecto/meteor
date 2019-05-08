@@ -6,8 +6,7 @@ export let menu = {
   showClassName: 'show',
   pointer: null,
 
-  menuTrigger (elem) {
-
+  menuTrigger(elem) {
     if ($(elem).hasClass(this.dropdownClassName)) {
 
       if (this.pointer !== elem) {
@@ -23,8 +22,12 @@ export let menu = {
 
       $(this.hostElem).children('.' + this.showClassName).removeClass(this.showClassName).children('ul').hide();
       this.show = false;
-
     }
+  },
 
+  init() {
+    $(this.hostElem).on(
+        'click', this.itemElem,
+        (e) => this.menuTrigger(e.currentTarget));
   }
 };
