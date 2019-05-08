@@ -18,12 +18,3 @@ body {
 a {
   text-decoration: none;
 }
-
-.container {
-  display: grid;
-
-  max-width: $xl;
-  margin: auto;
-  padding-right: $gap;
-  padding-left: $gap;
-}

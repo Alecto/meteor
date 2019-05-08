@@ -474,6 +474,17 @@ template {
   display: none;
 }
 
+.navbar-social__container {
+  max-width: 1170px;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-social__container {
+  display: grid;
+}
+
 .navbar-social__left,
 .navbar-social__right {
   display: -webkit-box;
@@ -494,7 +505,7 @@ template {
   font-weight: 500;
 }
 
-.navbar-social .container {
+.navbar-social__container {
   grid-template-columns: auto auto 1fr auto auto;
   grid-template-rows: minmax(36px, -webkit-max-content);
   grid-template-rows: minmax(36px, max-content);
@@ -602,13 +613,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.container {
-  display: grid;
-
-  max-width: 1170px;
-  margin: auto;
-  padding-right: 15px;
-  padding-left: 15px;
 }

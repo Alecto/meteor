@@ -4,13 +4,15 @@
 
   font-size: 0.75rem;
   font-weight: 500;
+}
 
-  .container {
-    grid-template-columns: auto auto 1fr auto auto;
-    grid-template-rows: minmax(36px, max-content);
-    align-items: center;
-    grid-gap: $gap;
-  }
+.navbar-social__container {
+  grid-template-columns: auto auto 1fr auto auto;
+  grid-template-rows: minmax(36px, max-content);
+  align-items: center;
+  grid-gap: $gap;
+
+  @extend %grid-container;
 }
 
 .navbar-social__weather {
