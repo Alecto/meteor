@@ -1,0 +1,11 @@
+.navbar-primary {
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  &__container {
+    grid-template-columns: auto 1fr 200px;
+    align-items: center;
+    grid-gap: $gap;
+    @extend %grid-container;
+  }
+}

@@ -11,7 +11,6 @@
   grid-template-rows: minmax(36px, max-content);
   align-items: center;
   grid-gap: $gap;
-
   @extend %grid-container;
 }
 
@@ -46,8 +45,8 @@
 .navbar-social__right {
   padding-right: $gap;
 
-  @extend %list-reset;
   align-items: center;
+  @extend %list-reset;
 
   &-item-link {
     display: flex;

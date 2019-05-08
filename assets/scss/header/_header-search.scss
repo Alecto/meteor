@@ -1,0 +1,41 @@
+.header-search {
+  &__form {
+    display: flex;
+
+    justify-content: flex-end;
+
+    &:hover,
+    &:focus {
+      input {
+        width: 100%;
+
+        opacity: 1;
+      }
+    }
+  }
+
+  &__input {
+    display: block;
+
+    width: 0;
+    padding: 10px 15px;
+
+    transition: opacity 0.5s, width 0.5s;
+
+    opacity: 0;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, darken($color-light, 3%), transparent);
+
+    font-size: 0.875rem;
+  }
+
+  &__button {
+    padding: 7px 7px 3px;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+  }
+}

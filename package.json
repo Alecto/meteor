@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "normalize-scss": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

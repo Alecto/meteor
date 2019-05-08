@@ -38,27 +38,27 @@
       <ul class="navbar-social__right">
         <li class="navbar-social__right-item">
           <a href="#" class="navbar-social__right-item-link">
-            <img src="assets/img/socials/pinterests.svg" alt="pinterests">
+            <img src="assets/img/icons/pinterests.svg" alt="pinterests">
           </a>
         </li>
         <li class="navbar-social__right-item">
           <a href="#" class="navbar-social__right-item-link">
-            <img src="assets/img/socials/facebook.svg" alt="facebook"></a>
+            <img src="assets/img/icons/facebook.svg" alt="facebook"></a>
         </li>
         <li class="navbar-social__right-item">
           <a href="#" class="navbar-social__right-item-link">
-            <img src="assets/img/socials/instagram.svg" alt="instagram">
+            <img src="assets/img/icons/instagram.svg" alt="instagram">
           </a></li>
         <li class="navbar-social__right-item">
           <a href="#" class="navbar-social__right-item-link">
-            <img src="assets/img/socials/google.svg" alt="google">
+            <img src="assets/img/icons/google.svg" alt="google">
           </a>
         </li>
       </ul>
 
       <div class="navbar-social__login">
         <a href="#" class="navbar-social__login-link">
-          <img src="assets/img/socials/sign-in.svg" alt="sign in icon">
+          <img src="assets/img/icons/sign-in.svg" alt="sign in icon">
           <span>Sign in</span>
         </a>
       </div>
@@ -70,23 +70,38 @@
     <div class="navbar-primary__container">
 
       <div class="header-logo">
-        <img class="header-logo__image" src="" alt="">
+        <img class="header-logo__image" src="assets/img/logo.png" alt="site logo">
       </div>
 
       <div class="header-menu">
         <ul class="header-menu__list">
-          <li class="header-menu__item"><a href="" class="header-menu__link"></a></li>
-          <li class="header-menu__item"><a href="" class="header-menu__link"></a></li>
-          <li class="header-menu__item"><a href="" class="header-menu__link"></a></li>
-          <li class="header-menu__item"><a href="" class="header-menu__link"></a></li>
-          <li class="header-menu__item"><a href="" class="header-menu__link"></a></li>
+          <li class="header-menu__item active"><a href="#" class="header-menu__link">Fashion</a></li>
+          <li class="header-menu__item"><a href="#" class="header-menu__link">Style Hunter</a></li>
+          <li class="header-menu__item dropdown"><a href="#" class="header-menu__link">Lifestyle
+            <img src="assets/img/icons/sort-down.svg" alt=""></a>
+            <ul class="header-menu__dropdown-list">
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Fashion</a></li>
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">High-tech</a></li>
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Vintage</a></li>
+            </ul>
+          </li>
+          <li class="header-menu__item"><a href="#" class="header-menu__link">Celebrity</a></li>
+          <li class="header-menu__item dropdown"><a href="#" class="header-menu__link">Videos
+            <img src="assets/img/icons/sort-down.svg" alt=""></a>
+            <ul class="header-menu__dropdown-list">
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">New</a></li>
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Popular</a></li>
+              <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Favorites</a></li>
+            </ul>
+          </li>
+          <li class="header-menu__item"><a href="#" class="header-menu__link">Interviews</a></li>
         </ul>
       </div>
 
       <div class="header-search">
         <form action="search" class="header-search__form">
-          <input type="text" class="header-search__input">
-          <button class="header-search__button"></button>
+          <input type="text" class="header-search__input" placeholder="Поиск по сайту...">
+          <button class="header-search__button"><img src="assets/img/icons/search.svg" alt=""></button>
         </form>
       </div>
 
@@ -94,6 +109,7 @@
   </nav>
 </header>
 
-
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

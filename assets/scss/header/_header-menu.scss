@@ -1,0 +1,73 @@
+.header-menu {
+  &__list {
+    @extend %list-reset;
+  }
+
+  &__item {
+    position: relative;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color-light, 5%);
+      a {
+        color: $color-main;
+      }
+    }
+
+    &.active {
+      background-color: $color-main;
+
+      a {
+        color: $color-light;
+      }
+    }
+
+    &.dropdown-toggled {
+      background-color: darken($color-light, 5%);
+      a {
+        color: $color-main;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+
+    padding: ($gap * 2.2) $gap ($gap * 2);
+
+    color: $color-main;
+  }
+
+  &__dropdown {
+    &-list {
+      position: absolute;
+      top: 101%;
+      left: 0;
+
+      display: none;
+      flex-direction: column;
+
+      min-width: 150px;
+
+      background-color: $color-light;
+
+      @extend %list-reset;
+    }
+
+    &-item {
+      &:hover,
+      &:focus {
+        background-color: $color-main;
+        a {
+          color: $color-light;
+        }
+      }
+    }
+
+    &-link {
+      display: block;
+
+      padding: ($gap / 2) $gap;
+    }
+  }
+}
