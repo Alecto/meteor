@@ -474,8 +474,8 @@ template {
   display: none;
 }
 
-.social-navbar__left,
-.social-navbar__right {
+.navbar-social__left,
+.navbar-social__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +486,7 @@ template {
   list-style: none;
 }
 
-.social-navbar {
+.navbar-social {
   color: #767676;
   background-color: #1a0e36;
 
@@ -494,7 +494,7 @@ template {
   font-weight: 500;
 }
 
-.social-navbar .container {
+.navbar-social .container {
   grid-template-columns: auto auto 1fr auto auto;
   grid-template-rows: minmax(36px, -webkit-max-content);
   grid-template-rows: minmax(36px, max-content);
@@ -504,21 +504,21 @@ template {
   grid-gap: 15px;
 }
 
-.social-navbar__weather-temperature {
+.navbar-social__weather-temperature {
   margin-right: 10px;
 }
 
-.social-navbar__today {
+.navbar-social__today {
   padding-left: 5px;
 }
 
-.social-navbar__left {
+.navbar-social__left {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.social-navbar__left-item-link {
+.navbar-social__left-item-link {
   display: block;
 
   padding: 5px 10px;
@@ -526,12 +526,12 @@ template {
   color: #767676;
 }
 
-.social-navbar__left-item-link:hover,
-.social-navbar__left-item-link:focus {
+.navbar-social__left-item-link:hover,
+.navbar-social__left-item-link:focus {
   color: #ffffff;
 }
 
-.social-navbar__right {
+.navbar-social__right {
   padding-right: 15px;
 
   -webkit-box-align: center;
@@ -539,7 +539,7 @@ template {
   align-items: center;
 }
 
-.social-navbar__right-item-link {
+.navbar-social__right-item-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -549,13 +549,13 @@ template {
   color: #767676;
 }
 
-.social-navbar__right-item-link:hover img,
-.social-navbar__right-item-link:focus img {
+.navbar-social__right-item-link:hover img,
+.navbar-social__right-item-link:focus img {
   -webkit-filter: brightness(2);
           filter: brightness(2);
 }
 
-.social-navbar__login-link {
+.navbar-social__login-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,18 +567,18 @@ template {
   align-items: center;
 }
 
-.social-navbar__login-link:hover,
-.social-navbar__login-link:focus {
+.navbar-social__login-link:hover,
+.navbar-social__login-link:focus {
   color: #ffffff;
 }
 
-.social-navbar__login-link:hover img,
-.social-navbar__login-link:focus img {
+.navbar-social__login-link:hover img,
+.navbar-social__login-link:focus img {
   -webkit-filter: brightness(2);
           filter: brightness(2);
 }
 
-.social-navbar__login img {
+.navbar-social__login img {
   margin-right: 5px;
 }
 

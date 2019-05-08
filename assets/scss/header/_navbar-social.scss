@@ -1,4 +1,4 @@
-.social-navbar {
+.navbar-social {
   color: $color-gray;
   background-color: $color-main;
 
@@ -13,17 +13,17 @@
   }
 }
 
-.social-navbar__weather {
+.navbar-social__weather {
   &-temperature {
     margin-right: $gap / 3 * 2;
   }
 }
 
-.social-navbar__today {
+.navbar-social__today {
   padding-left: $gap / 3;
 }
 
-.social-navbar__left {
+.navbar-social__left {
   align-items: center;
   @extend %list-reset;
 
@@ -41,7 +41,7 @@
   }
 }
 
-.social-navbar__right {
+.navbar-social__right {
   padding-right: $gap;
 
   @extend %list-reset;
@@ -63,7 +63,7 @@
   }
 }
 
-.social-navbar__login {
+.navbar-social__login {
   &-link {
     display: flex;
 
