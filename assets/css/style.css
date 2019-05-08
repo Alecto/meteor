@@ -636,11 +636,11 @@ template {
   color: #ffffff;
 }
 
-.header-menu__item.dropdown-toggled {
+.header-menu__item.show {
   background-color: #f2f2f2;
 }
 
-.header-menu__item.dropdown-toggled a {
+.header-menu__item.show a {
   color: #1a0e36;
 }
 

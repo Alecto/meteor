@@ -22,8 +22,9 @@
       }
     }
 
-    &.dropdown-toggled {
+    &.show {
       background-color: darken($color-light, 5%);
+
       a {
         color: $color-main;
       }
@@ -70,4 +71,4 @@
       padding: ($gap / 2) $gap;
     }
   }
-}
+}
